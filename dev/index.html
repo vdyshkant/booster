@@ -5,7 +5,11 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Portfolio</title>
     <link href="https://fonts.googleapis.com/css?family=Lato:400,300,700,900" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <!-- <link href='http://fonts.googleapis.com/css?family=Dosis:100,200,300,400,500,600' rel='stylesheet' type='text/css'> -->
+
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet" type="text/css">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -21,7 +25,7 @@
     <![endif]-->
 
 
-    .top-nav
+    <!-- .top-nav
         logo
         navigation
             home: > в самый верх перемещает управление
@@ -40,150 +44,383 @@
 
     .footer
         idioms
-        copy
+        copy -->
 
 <!--
 BEM :: 4 sectors
  -->
 
     <div class="wrapper">
-      <div class="top-nav">
+
+
+
+      <div class="top-nav" id="header">
         <div class="wrap clearfix">
           <div class="left">
-            <div class="logo"></div>
+            <div class="logo">Portfolio</div>
           </div>
           <div class="right">
-            <nav class="main-menu"></nav>
+            <nav class="main-nav  clearfix">
+
+              <ul class="main-nav-bar">
+                <li class="animated  fadeInUp  item1"><a href="#">Home</a></li>
+                <li class="animated  fadeInUp  item2"><a href="#">About</a></li>
+                <li class="animated  fadeInUp  item3"><a href="#">Projects</a></li>
+                <li class="animated  fadeInUp  item4"><a href="#">Contact</a></li>
+              </ul>
+
+              <!-- <ul class="social-header  clearfix">    НЕ ЗАБУДЬ ВЫЧИСТИТЬ СТИЛИ ПОСЛЕ ЭТОЙ ШТУКИ
+                <li><a class="social-github" href="#"></a></li>
+                <li><a class="social-email" href="#"></a></li>
+              </ul> -->
+
+              <div class="burger-menu">
+                  <a class="burger burger3" href="javascript:void(0)"><span></span></a>
+              </div>
+
+            </nav>
           </div>
         </div>
       </div>
-      <header class="header">
-        <div class="wrap">
-          <div class="profile"></div>
-        </div>
-      </header>
-      <div class="main">
-        <div class="wrap">
-          <div class="portfolio">
-            <div class="element-portfolio">
-              <div class="element-portfolio-wrapper">
-                <div class="portfolio-item">
-                  <a href=""></a>
-                  <div class="portfolio-description-wrapper">
-                    <div class="portfolio-description">
-                      <h2 class="portfolio-title"></h2>
-                    </div>
+
+
+
+        <header class="header">
+          <div class="wrap">
+            <div class="profile">
+
+<!-- Typer.js -->
+<div class="title">I'm
+            <div class="type-wrap">
+              <div class="typed-strings">
+                <p>a Software Engineer</p>
+                <p>Front-end Developer</p>
+                <p>Trusted</p>
+                <p>RELIABLE</p>
+              </div>
+              <span class="typed"></span>
+              <span class="typed-cursor"></span>
+            </div>
+</div>
+<!-- / Typer.js -->
+
+
+              HEADER::PROFILE
+            </div>
+          </div>
+        </header>
+
+        <div class="desktop">
+          <div class="desktop-wrapper">
+            <div class="desktop-img">
+              <!-- drops -->
+              <img src="https://stag-cdn1.deliciousthemes.com/stag/wp-content/uploads/revslider/stag-slider/stag-slider-image-1920x10801.jpg" alt="" width="1920" height="1080" data-ww="['1920px','1920px','1920px','1920px']" data-hh="['1080px','1080px','1080px','1080px']" data-lazyload="https://stag-cdn1.deliciousthemes.com/stag/wp-content/uploads/revslider/stag-slider/stag-slider-image-1920x10801.jpg" data-no-retina="" style="/* width: 1920px; *//* height: 1080px; */">
+              <div class="drops">
+                <div class="tp-item tp-item1">
+                  <div class="tp-wrap">
+                    <div class="tp-mask"></div>
+                    <div class="tp-caption">The Creativity Booster</div>
+                  </div>
+                </div>
+                <div class="tp-item tp-item2">
+                  <div class="tp-wrap">
+                    <div class="tp-mask"></div>
+                    <div class="tp-caption">Always Take Notes</div>
+                  </div>
+                </div>
+                <div class="tp-item tp-item3">
+                  <div class="tp-wrap">
+                    <div class="tp-mask"></div>
+                    <div class="tp-caption">Where Ideas Come To Life</div>
+                  </div>
+                </div>
+                <div class="tp-item tp-item4">
+                  <div class="tp-wrap">
+                    <div class="tp-mask"></div>
+                    <div class="tp-caption">Never Stop Learning!</div>
                   </div>
                 </div>
               </div>
+              <!-- / drops -->
             </div>
           </div>
         </div>
-      </div>
-      <footer class="footer">
-        <div class="footer-top"></div>
-        <div class="footer-bottom"></div>
-      </footer>
-    </div>
 
 
 
-
-
-    <header class="header">
-      <div class="container">
-        <div class="menu-wrapper  clearfix">
-          <div class="navbar-header">
-            <h1>Portfolio</h1>
-          </div>
-          <nav class="navbar">
-            <ul class="navbar-nav">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Portfolio</a></li>
-              <li><a href="#">Content</a></li>
-            </ul>
-            <ul class="social-header">
-              <li><a href="#">fb</a></li>
-              <li><a href="#">tw</a></li>
-              <li><a href="#">vk</a></li>
-              <li><a href="#">ln</a></li>
-            </ul>
-          </nav>
-        </div>
-      </div>
-    </header>
-
-    <!-- Main Content
-    ================================================== -->
-
-    <div class="main-content-container">
-      <div class="element-profile">
-        <div class="element-wrapper">
-          <div class="profile">
-            <!-- profile-mask -->
-            <div class="profile-mask">
-              <div class="profile-mask-content"></div>
-            </div>
-            <!-- /profile-mask -->
-            <div class="profile-picture">
-              <img src="" alt="">
-            </div>
-            <div class="profile-intro">
-              <div class="profile-intro-wrapper"></div>
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-
-    <div class="wrapper">
-      <!-- Start Navbar -->
-      <div class="top-nav">
-        <div class="wrap">
-
-        </div>
-      </div>
-      <!-- End Navbar -->
-      <!-- Start HEADER -->
-      <header class="header">
-        <div class="wrap">
-
-        </div>
-      </header>
-      <!-- End HEADER -->
-      <!-- Start MAIN -->
+      <!-- Main Content
+      ================================================== -->
       <div class="main">
+
+
+<div class="sec-title">
+  <h2>Latest Projects</h2>
+  <span>Awesome portfolio</span>
+</div>
+
+
+  Latest projects
+  awesome portfolio
+  line ----------
+
+
         <div class="wrap">
-          <!-- Section1 -->
-          <section class="section1Name">
+          <div class="portfolio">
 
-          </section>
-          <!-- End Section1 -->
-          <!-- Section2 -->
-          <section class="section2Name">
+            <div class="element  portfolio-item1">               <!--    // w, poa, left-top / p3px -->
+              <div class="portfolio-wrapper">                    <!--    // min-height, por -->
+                <div class="portfolio-item">                     <!--    // margin, w100%, h100%, opacity, transition-transform -->
+                  <a class="portfolio-item-link" href="http://dolce-gusto.ua" target="_blank">   <!--    // cursor, transition, bgi, bgsCover, tac, c, poa -->
+<!-- 01 :: dolce-gusto.ua -->
+                    <!-- portfolio-description -->
+                    <div class="portfolio-item-content"></div>
+                    <div class="portfolio-description-wrapper">
+                      <div class="icon">
+                        <svg class="icon-link-svg">
+                          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/link.svg#icon-link"></use>
+                        </svg>
+                      </div>
 
-          </section>
-          <!-- End Section2 -->
+                      <div class="portfolio-description  caption">
+                        <h3>HTML5, CSS3, jQuery</h3>
+                      </div>
+                    </div>
+                    <!-- /portfolio-description -->
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="element  portfolio-item2">
+              <div class="portfolio-wrapper">
+                <div class="portfolio-item">
+                  <a class="portfolio-item-link" href="http://masterpapers.com" target="_blank">
+<!-- 02 :: masterpapers.com -->
+                    <!-- portfolio-description -->
+                    <div class="portfolio-item-content"></div>
+                    <div class="portfolio-description-wrapper">
+                      <div class="icon">
+                        <svg class="icon-link-svg">
+                          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/link.svg#icon-link"></use>
+                        </svg>
+                      </div>
+
+                      <div class="portfolio-description  caption">
+                        <h3>HTML5, CSS3, PHP, jQuery, Animation, Ecommerce</h3>
+                      </div>
+                    </div>
+                    <!-- /portfolio-description -->
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="element  portfolio-item3">
+              <div class="portfolio-wrapper">
+                <div class="portfolio-item">
+                  <a class="portfolio-item-link" href="http://mcfoxy.ua" target="_blank">
+<!-- 03 :: mcFOXY -->
+                    <!-- portfolio-description -->
+                    <div class="portfolio-item-content"></div>
+                    <div class="portfolio-description-wrapper">
+                      <div class="icon">
+                        <svg class="icon-link-svg">
+                          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/link.svg#icon-link"></use>
+                        </svg>
+                      </div>
+
+                      <div class="portfolio-description  caption">
+                        <h3>HTML, CSS, jQuery</h3>
+                      </div>
+                    </div>
+                    <!-- /portfolio-description -->
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="element  portfolio-item4">
+              <div class="portfolio-wrapper">
+                <div class="portfolio-item">
+                  <a class="portfolio-item-link" href="http://ringoo.ua" target="_blank">
+<!-- 04 :: ringoo -->
+                    <!-- portfolio-description -->
+                    <div class="portfolio-item-content"></div>
+                    <div class="portfolio-description-wrapper">
+                      <div class="icon">
+                        <svg class="icon-link-svg">
+                          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/link.svg#icon-link"></use>
+                        </svg>
+                      </div>
+
+                      <div class="portfolio-description  caption">
+                        <h3>HTML5, CSS3, jQuery</h3>
+                      </div>
+                    </div>
+                    <!-- /portfolio-description -->
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="element  portfolio-item5">
+              <div class="portfolio-wrapper">
+                <div class="portfolio-item">
+                  <a class="portfolio-item-link" href="http://club.nutricia.ua" target="_blank">
+<!-- 05 :: NUTRICIAclub -->
+                    <!-- portfolio-description -->
+                    <div class="portfolio-item-content"></div>
+                    <div class="portfolio-description-wrapper">
+                      <div class="icon">
+                        <svg class="icon-link-svg">
+                          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/link.svg#icon-link"></use>
+                        </svg>
+                      </div>
+
+                      <div class="portfolio-description  caption">
+                        <h3>HTML5, CSS3, PHP, jQuery, JS, Yii</h3>
+                      </div>
+                    </div>
+                    <!-- /portfolio-description -->
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="element  portfolio-item6">
+              <div class="portfolio-wrapper">
+                <div class="portfolio-item">
+                  <a class="portfolio-item-link" href="http://rastishka.ua" target="_blank">
+<!-- 06 :: rastishka.ua -->
+                    <!-- portfolio-description -->
+                    <div class="portfolio-item-content"></div>
+                    <div class="portfolio-description-wrapper">
+                      <div class="icon">
+                        <svg class="icon-link-svg">
+                          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/link.svg#icon-link"></use>
+                        </svg>
+                      </div>
+
+                      <div class="portfolio-description  caption">
+                        <h3>HTML5, CSS3, Yii</h3>
+                      </div>
+                    </div>
+                    <!-- /portfolio-description -->
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="element  portfolio-item7">
+              <div class="portfolio-wrapper">
+                <div class="portfolio-item">
+                  <a class="portfolio-item-link" href="http://github.io" target="_blank">
+<!-- 07 :: PINK -->
+                    <!-- portfolio-description -->
+                    <div class="portfolio-item-content"></div>
+                    <div class="portfolio-description-wrapper">
+                      <div class="icon">
+                        <svg class="icon-link-svg">
+                          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/link.svg#icon-link"></use>
+                        </svg>
+                      </div>
+
+                      <div class="portfolio-description  caption">
+                        <h3>HTML5, CSS3, Responsive, jQuery</h3>
+                      </div>
+                    </div>
+                    <!-- /portfolio-description -->
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="element  portfolio-item8">
+              <div class="portfolio-wrapper">
+                <div class="portfolio-item">
+                  <a class="portfolio-item-link" href="http://pronutrilon.com" target="_blank">
+<!-- 0 :: pronutrilon.com -->
+                    <!-- portfolio-description -->
+                    <div class="portfolio-item-content"></div>
+                    <div class="portfolio-description-wrapper">
+                      <div class="icon">
+                        <svg class="icon-link-svg">
+                          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/link.svg#icon-link"></use>
+                        </svg>
+                      </div>
+
+                      <div class="portfolio-description  caption">
+                        <h3>HTML5, CSS3, Yii</h3>
+                      </div>
+                    </div>
+                    <!-- /portfolio-description -->
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="element  portfolio-item9">
+              <div class="portfolio-wrapper">
+                <div class="portfolio-item">
+                  <a class="portfolio-item-link" href="http://intertelecom.ua" target="_blank">
+<!-- 09 :: intertelecom.ua -->
+                    <!-- portfolio-description -->
+                    <div class="portfolio-item-content"></div>
+                    <div class="portfolio-description-wrapper">
+                      <div class="icon">
+                        <svg class="icon-link-svg">
+                          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/link.svg#icon-link"></use>
+                        </svg>
+                      </div>
+
+                      <div class="portfolio-description  caption">
+                        <h3>HTML5, CSS3, jQuery</h3>
+                      </div>
+                    </div>
+                    <!-- /portfolio-description -->
+                  </a>
+                </div>
+              </div>
+            </div>
+
+          </div>
         </div>
       </div>
-      <!-- End MAIN -->
-      <!-- Start FOOTER -->
-      <footer class="footer">
-        <div class="wrap">
 
+
+
+      <footer class="footer">
+        <a href="#main" id="to-top">
+          <div class="scrolltop"></div>
+        </a>
+        <div class="footer-line"></div>
+        <div class="footer-top">
+          <div class="wrap">
+            <span class="footer-quote-author">Steve Jobs</span>
+            <p class="footer-quote">“Design is not just what it looks like and feels like.<br>Design is how it works.”</p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="wrap">
+            BOTTOM :: 451 LOREM IPSUM, AUSTIN - TEXAS·
+          </div>
         </div>
       </footer>
-      <!-- End FOOTER -->
+
+
+
     </div>
+
+
 
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
+    <script src="js/typed.js"></script>
+    <script src="js/headhesive.min.js"></script>
+    <script src="js/jquery.transit.min.js"></script>
+    <script src="js/parallax.min.js"></script>
     <script src="js/script.js"></script>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
