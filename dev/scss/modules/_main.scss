@@ -236,8 +236,8 @@ $burgerFill: #4c4e50;
                 color: #111;
 
                 &:hover {
-                    color: #7b5b4b;
-                    border-bottom-color: #7b5b4b;
+                    color: rgba(32, 167, 113, 1);                  //#7b5b4b;
+                    border-bottom-color: rgba(32, 167, 113, 1);    //#7b5b4b;
                     background: transparent;
 
                     &::after {
@@ -259,7 +259,7 @@ $burgerFill: #4c4e50;
                     transform: translateY(12px);
 
                     opacity: 0;
-                    background: #7b5b4b;
+                    background: rgba(32, 167, 113, 1);    //#7b5b4b;
                 }
             }
         }
