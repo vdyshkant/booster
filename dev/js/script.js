@@ -1,4 +1,15 @@
 
+// back to top
+$(document).ready(function(){
+
+    $("#back-to-top").click(function(){
+        $("html,body").animate({ scrollTop: 0 }, 600);
+        return false;
+    });
+});
+// eof back to top
+
+
 // typed.js
 function typed () {
 	if ($(".typed").length) {
@@ -72,76 +83,18 @@ $("a.burger").click(function(){
 // при отбратном клике по бургеру всё предыдущее отменяется.
 // opacity для nav блока меняем динамически и display none на block
 
-var open = false;
-jQuery('a.burger').on('click', function() {
-		// jQuery(this).find(".burger-menu").toggleClass("main-nav-bar-active");
-		if (open == false) {
-				jQuery('.main-nav-bar').fadeIn(300);
-				open = true;
-		} else {
-				jQuery('.main-nav-bar').fadeOut(300);
-				open = false;
-		}
-		stag_wpml_widget_position();
+$(document).ready(function(){
+	var open = false;
+	jQuery('a.burger').on('click', function() {
+			// jQuery(this).find(".burger-menu").toggleClass("main-nav-bar-active");
+			if (open == false) {
+					jQuery('.main-nav-bar').fadeIn(300);
+					open = true;
+			} else {
+					jQuery('.main-nav-bar').fadeOut(300);
+					open = false;
+			}
+			stag_wpml_widget_position();
+	});
 });
 // EOF burger behave
-
-
-
-/// Parallax
-
-// var scene = document.getElementById('scene');
-// var parallax = new Parallax(scene);
-
-// eof  Parallax
-
-/* headhesive alternative: */
-// jQuery(window).scroll(function() {
-// 			var value = jQuery(this).scrollTop();
-// 			if (value > 150) {
-// 					jQuery("#header").removeClass("initial-state").addClass("scrolled-header").css({
-// 							"padding-top": 60 + "px",
-// 							"padding-bottom": 60 + "px"
-// 					});
-// 			} else {
-// 	        jQuery("#header").removeClass("scrolled-header").addClass("initial-state").css({
-// 						"padding-top": 25 + "px",
-// 						"padding-bottom": 25 + "px"
-// 					});
-// 			}
-// 	})
-
-// var stag_styles = {
-//  "stag_header_bg": "#ffffff",
-//  "stag_header_scroll_bg": "rgba(255,255,255,0.9)",
-//  "stag_default_color": "#ffffff",
-//  "stag_logo_width": "85",
-//  "stag_logo_height": "25",
-//  "stag_logo_onscroll_height": "25",
-//  "stag_init_pt": "48",
-//  "stag_init_pb": "48",
-//  "stag_scroll_pt": "16",
-//  "stag_scroll_pb": "16",
-//  "stag_scrolling_effect": "1",
-//  "stag_mainlogosrc": "",
-//  "stag_alternativelogosrc": "",
-//  "stag_alternativelogo": "0",
-//  "stag_scheme": "light-header",
-//  "stag_scheme_on_scroll": "light-header",
-//  "stag_pagenav_behavior_switch": "0",
-//  "stag_initial_navigation_style": "light-header",
-//  "stag_onscroll_navigation_style": "light-header",
-//  "stag_initial_header_color": "255,255,255",
-//  "stag_onscroll_header_color": "255,255,255",
-//  "stag_initial_header_color_opacity": "0",
-//  "stag_onscroll_header_color_opacity": "0",
-//  "stag_initial_logo_image_url": null,
-//  "stag_initial_logo_image_width": null,
-//  "stag_initial_logo_image_height": null,
-//  "stag_onscroll_logo_image_url": null,
-//  "stag_onscroll_logo_image_width": null,
-//  "stag_onscroll_logo_image_height": null,
-//  "page_id": "2809"
-// }
-//
-// ;
